@@ -1,0 +1,15 @@
+CREATE table Bakery(name TEXT, section TEXT, PRICE Integer, Popularity integer);
+
+INSERT INTO bakery VALUES
+("cupcakes","Bakery", 5, 8),
+("cakes", "Bakery", 12, 7),
+("popcicles", "Frozen", 2, 3),
+("Chocolates covered oreos", "Cholcolate bar", 4, 6),
+("iced coffee regular", "Barista", 7, 10),
+("hot coffee regular","Barista", 3, 1),
+("hot coffee large", "Barista", 5, 2),
+("truffles", "Cholcolate bar", 3, 9),
+("water bottle", "Cooler",2, 5),
+("bottled soda", "Cooler",2, 4),
+("cake pops", "Bakery", 3, 11);
+SELECT * FROM Bakery ORDER BY popularity asc;
